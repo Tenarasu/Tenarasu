@@ -4,10 +4,10 @@
 void delay();
 int main()
 {
-    TRISB=0;
+    TRISB=0;        //Select output port 
     while(1)
     {
-    PORTB=0XFF;
+    PORTB=0XFF;    
     delay();
     PORTB=0X00;
     delay();
