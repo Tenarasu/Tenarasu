@@ -1,4 +1,3 @@
- Tenarasu
 /*simple c program  using LED Blinking */
 #include<htc.h>
 void delay();
