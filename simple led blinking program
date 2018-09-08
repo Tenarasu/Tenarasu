@@ -13,7 +13,7 @@ int main()
     delay();
     }
 }
-void delay()//using delay for timer1 delay 
+void delay()         //using delay for timer1
 {
    T1CKPS1=1;       // Select prescalars using timer calculation
    T1CKPS0=1;
